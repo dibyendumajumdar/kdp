@@ -1,0 +1,74 @@
+:Base PhotoEd.hlp>HowTo
+:Title Photo Editor Help
+:Link PhotoEd.hlp
+1 Getting Started
+2 Start Photo Editor from another program=ImagerhowStartPhotoEditorFromAnotherProgram
+2 Embed an image=ImagerhowEmbeddingAnImage
+2 Quit Photo Editor=ImagerhowQuitting
+1 Creating and Opening an Image
+2 Create a new image=ImagerhowCreateANewImage
+2 Open an existing image=ImagerhowOpenAnExistingImage
+2 Preview an image before opening it=ImagerhowPreviewAnImageBeforeOpeningIt
+2 Create a new image with a colored background=ImagerhowCreateANewImageWithAColoredBackground
+2 Choose the resolution when opening a Kodak Photo CD image=ImagerhowChooseTheResolutionWhenOpeningAPhotoCDImage
+1 Scanning an Image
+2 Scan an image with Photo Editor=ImagerhowScanAnImageWithPhotoEditor
+2 Select a scanner=ImagerhowSelectAScanner
+1 Saving and Closing an Image
+2 Save a new image=ImagerhowSaveANewImage
+2 Save an existing image=ImagerhowSaveAnExistingImage
+2 Save a copy of an image=ImagerhowSaveACopyOfAnImage
+2 Choose the quality factor for a JPEG image=ImagerhowChooseTheQualityFactorForAJPEGImage
+2 Close an active image=ImagerhowCloseAnActiveImage
+1 Photo Editor Toolbar
+2 Select all or part of an image=ImagerhowSelectAllOfAnImage
+2 Resize a selection=ImagerhowResizeASelection
+2 Rotate an image=ImagerhowRotateAnImage
+2 Zoom in or out of an image=ImagerhowZoomInAndOutOfAnImage
+2 Smudge part of an image=ImagerhowSmudgePartOfAnImage
+2 Sharpen part of an image=ImagerhowSharpenPartOfAnImage
+2 Create transparent areas in an image=ImagerhowCreateTransparentAreasInAnImage
+2 Adjust the brightness of an image=ImagerhowAdjustTheBrightnessOfAnImage
+2 Adjust the contrast of an image=ImagerhowAdjustTheContrastOfAnImage
+2 Adjust the gamma of an image=ImagerhowAdjustTheGammaOfAnImage
+1 Cutting, Copying, and Pasting an Image
+2 Select all or part of an image=ImagerhowSelectAllOfAnImage
+2 Resize a selection=ImagerhowResizeASelection
+2 Copy all or part of an image=ImagerhowCopyAllOrPartOfAnImage
+2 Move and paste a selection within the same image=ImagerhowPasteASelectionWithinTheSameImage
+2 Move all or part of an image to a different image or file=ImagerhowPasteAllOrPartOfAnImage
+2 Erase all or part of an image=ImagerhowEraseAllOrPartOfAnImage
+2 Cancel or undo a selection=ImagerhowDeleteAnSelection
+2 Undo or redo the last action=ImagerhowUndoOrRedoTheLastAction
+2 Undo multiple changes=ImagerhowUndoMultipleChanges
+1 Editing an Image
+2 Adjust the image quality automatically=ImagerhowAdjustTheImageQualityAutomatically
+2 Resize an image=ImagerhowResizeAnImage
+2 Crop an image=ImagerhowCropAnImage
+2 Mat an image=ImagerhowMatAnImage
+2 Rotate an image=ImagerhowRotateAnImage
+2 Create transparent areas in an image=ImagerhowCreateTransparentAreasInAnImage
+2 Change the type or file format of an image=ImagerhowChangeTheTypeOfAnImage
+2 Change the number of colors in an image=ImagerhowChangeTheNumberOfColorsInAnImage
+2 Change the resolution of an image=ImagerhowChangeTheResolutionOfAnImage
+2 Choose a palette of less than 256 colors=ImagerhowChooseAPaletteOfLessThan256Colors
+1 Applying Effects
+2 Apply artistic effects=imhowApplyArtisticEffects
+2 Apply special effects=imhowApplySpecialEffects
+1 Printing and Sending E-mail
+2 Print an image=ImagerhowPrintAnImage
+2 Position an image on the page=ImagerhowPositionAnImageOnThePage
+2 Choose a size for a printed image=ImagerhowChooseASizeForAPrintedImage
+2 Create or modify a halftone=ImagerhowCreateOrModifyHalftone
+2 Send an image by e-mail=ImagerhowSendAnImageByEmail
+1 Customizing Your Workspace
+2 Display or hide the rulers=ImagerhowDisplayOrHideTheRulers
+2 Display or hide the status bar=ImagerhowDisplayOrHideTheStatusBar
+2 Display or hide the toolbar=ImagerhowDisplayOrHideTheToolbar
+2 Move the toolbar=ImagerhowMoveTheToolbar
+2 Change the unit of measurement on the rulers=ImagerhowChangeTheUnitOfMeasurementOnTheRulers
+2 Display Help while you work=ImagerhowDisplayHelpWhileYouWork
+2 View more than one image at a time=ImagerhowViewMoreThanOneImageAtATime
+1 Reference
+2 Keyboard commands=ImagerrefKeyboardCommands
+2 Troubleshooting=imrefWhatAreYouHavingTroubleWith

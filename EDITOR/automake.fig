@@ -1,0 +1,24 @@
+*******************************************
+*
+* Automake File Created By WiDE
+*
+*******************************************
+*
+* Source
+*
+FILES=edfile.f90
+OBJDIR=C:\WINOPT_IVF\EDITOR\
+COMPILE=@ifort -c -include:"c:\wint\lib.if8" "%fi"
+AND
+FILES=edrc.rc
+OBJEXT=RES
+COMPILE=@rc /i"c:\wint\include" "%fi"
+AND
+FILES=
+COMPILE=@rc /i"c:\wint\include" "%fi"
+*******************************************
+*
+* Linker
+*
+TARGET=\winopt\editor\edfile.exe
+LINK=@link @automake.lnk

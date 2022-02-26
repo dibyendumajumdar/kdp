@@ -1,0 +1,272 @@
+# This SRG file is used to register Microsoft Photo Editor 3.0.
+# This file must be in the folder with PhotoEd.exe.
+
+
+
+# Base entires to faclilitate Un-register
+
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}]
+[HKEY_CLASSES_ROOT\MSPhotoEd.3]
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}]
+[HKEY_CLASSES_ROOT\MSPhotoEdScan.3]
+[HKEY_CLASSES_ROOT\MSPhotoEd]
+[HKEY_CLASSES_ROOT\MSPhotoEdScan]
+[HKEY_CLASSES_ROOT\CLSID\{0004749F-0000-0000-C000-000000000046}]
+[HKEY_CLASSES_ROOT\MsImager.1]
+[HKEY_CLASSES_ROOT\CLSID\{E71AF890-4F3E-11CE-9872-0020AF68053F}]
+[HKEY_CLASSES_ROOT\MSImager.2]
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Photo Editor\3.0]
+[HKEY_CURRENT_USER\Software\Microsoft\Photo Editor\3.0\Microsoft Photo Editor]
+"Show"="1"
+
+
+# Microsoft Photo Editor registry entries
+
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}]
+@="Microsoft Photo Editor 3.0 Photo"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\LocalServer32]
+@="<product path>\\PhotoEd.exe"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\InProcHandler]
+@="ole2.dll"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\InProcHandler32]
+@="ole32.dll"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\Verb\0]
+@="&Edit,0,2"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\AuxUserType\2]
+@="Photo Editor Photo"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\AuxUserType\3]
+@="Microsoft Photo Editor 3.0 Photo"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\MiscStatus]
+@="0"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\Insertable]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\ProgID]
+@="MSPhotoEd.3"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\Conversion\Readable\Main]
+@="MsImager.1,MSPhotoEd.2"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\DefaultIcon]
+@="<product path>\\PhotoEd.exe,0"
+[HKEY_CLASSES_ROOT\CLSID\{11943940-36DE-11CF-953E-00C0A84029E9}\VersionIndependentProgID]
+@="MSPhotoEd"
+
+[HKEY_CLASSES_ROOT\MSPhotoEd.3]
+@="Microsoft Photo Editor 3.0 Photo"
+[HKEY_CLASSES_ROOT\MSPhotoEd.3\Insertable]
+@=""
+# This entry is not for OLE compatibility, but enables Photo Editor to be Word's picture editor.
+[HKEY_CLASSES_ROOT\MSPhotoEd.3\Protocol\StdFileEditing\SetDataFormats]
+@="CF_METAFILEPICT,CF_DIB"
+[HKEY_CLASSES_ROOT\MSPhotoEd.3\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\MSPhotoEd.3\Shell\Open\Command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\MSPhotoEd.3\Shell\Print\Command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\MSPhotoEd.3\Shell\PrintTo\Command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+
+
+
+# Microsoft Photo Editor 3.0 Scanned Picture registry entries
+
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}]
+@="Microsoft Photo Editor 3.0 Scan"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\LocalServer32]
+@="<product path>\\PhotoEd.exe"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\InProcHandler]
+@="ole2.dll"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\InProcHandler32]
+@="ole32.dll"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\Verb\0]
+@="&Edit,0,2"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\AuxUserType\2]
+@="Scanned Photo"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\AuxUserType\3]
+@="Microsoft Photo Editor 3.0 Scanned Photo"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\MiscStatus]
+@="0"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\Insertable]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\ProgID]
+@="MSPhotoEdScan.3"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\DefaultIcon]
+@="<product path>\\PhotoEd.exe,0"
+[HKEY_CLASSES_ROOT\CLSID\{11943941-36DE-11CF-953E-00C0A84029E9}\VersionIndependentProgID]
+@="MSPhotoEdScan"
+
+[HKEY_CLASSES_ROOT\MSPhotoEdScan.3]
+@="Microsoft Photo Editor 3.0 Scan"
+[HKEY_CLASSES_ROOT\MSPhotoEdScan.3\Insertable]
+@=""
+[HKEY_CLASSES_ROOT\MSPhotoEdScan.3\CLSID]
+@="{11943941-36DE-11CF-953E-00C0A84029E9}"
+
+
+
+# Version independent ProgIDs
+
+[HKEY_CLASSES_ROOT\MSPhotoEd]
+@="Microsoft Photo Editor Photo"
+[HKEY_CLASSES_ROOT\MSPhotoEd\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\MSPhotoEd\CurVer]
+@="MSPhotoEd.3"
+[HKEY_CLASSES_ROOT\MSPhotoEdScan]
+@="Microsoft Photo Editor Scan"
+[HKEY_CLASSES_ROOT\MSPhotoEdScan\CLSID]
+@="{11943941-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\MSPhotoEdScan\CurVer]
+@="MSPhotoEdScan.3"
+
+
+
+
+# Entries for conversion of Imager 1.0 objects
+
+[HKEY_CLASSES_ROOT\CLSID\{0004749F-0000-0000-C000-000000000046}]
+@="Microsoft Imager 1.0 Picture"
+[HKEY_CLASSES_ROOT\CLSID\{0004749F-0000-0000-C000-000000000046}\NotInsertable]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{0004749F-0000-0000-C000-000000000046}\AutoConvertTo]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\CLSID\{0004749F-0000-0000-C000-000000000046}\Ole1Class]
+@="MsImager.1"
+[HKEY_CLASSES_ROOT\CLSID\{0004749F-0000-0000-C000-000000000046}\ProgID]
+@="MsImager.1"
+
+[HKEY_CLASSES_ROOT\MsImager.1]
+@="Microsoft Imager 1.0 Picture"
+[HKEY_CLASSES_ROOT\MsImager.1\NotInsertable]
+@=""
+[HKEY_CLASSES_ROOT\MsImager.1\CLSID]
+@="{0004749F-0000-0000-C000-000000000046}"
+[HKEY_CLASSES_ROOT\MsImager.1\CurVer]
+@="MSPhotoEd.3"
+
+
+
+# Entries for conversion of Imager 2.0 objects
+
+[HKEY_CLASSES_ROOT\CLSID\{E71AF890-4F3E-11CE-9872-0020AF68053F}]
+@="Microsoft Imager 2.0 Picture"
+[HKEY_CLASSES_ROOT\CLSID\{E71AF890-4F3E-11CE-9872-0020AF68053F}\NotInsertable]
+@=""
+[HKEY_CLASSES_ROOT\CLSID\{E71AF890-4F3E-11CE-9872-0020AF68053F}\AutoConvertTo]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\CLSID\{E71AF890-4F3E-11CE-9872-0020AF68053F}\ProgID]
+@="MSImager.2"
+
+[HKEY_CLASSES_ROOT\MSImager.2]
+@="Microsoft Imager 2.0 Picture"
+[HKEY_CLASSES_ROOT\MSImager.2\NotInsertable]
+@=""
+[HKEY_CLASSES_ROOT\MSImager.2\CLSID]
+@="{E71AF890-4F3E-11CE-9872-0020AF68053F}"
+[HKEY_CLASSES_ROOT\MSImager.2\CurVer]
+@="MSPhotoEd.3"
+
+
+
+# Shell file extension settings.
+
+# PCD
+[HKEY_CLASSES_ROOT\.pcd]
+@="PCDfile"
+[HKEY_CLASSES_ROOT\PCDfile]
+@="Photo CD Image"
+[HKEY_CLASSES_ROOT\PCDfile\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\PCDfile\DefaultIcon]
+@="<product path>\\PhotoEd.exe,9"
+# Note, we need an icon resource number and icon for PCD in Imager.exe
+[HKEY_CLASSES_ROOT\PCDfile\shell\open\command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\PCDfile\shell\print\command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\PCDfile\shell\printto\command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+
+# PNG
+[HKEY_CLASSES_ROOT\.png]
+@="pngfile"
+[HKEY_CLASSES_ROOT\pngfile]
+@="PNG Image"
+[HKEY_CLASSES_ROOT\pngfile\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\pngfile\DefaultIcon]
+@="<product path>\\PhotoEd.exe,3"
+# Note, we need an icon resource number and icon for PNG in Imager.exe
+[HKEY_CLASSES_ROOT\pngfile\shell\open\command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\pngfile\shell\print\command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\pngfile\shell\printto\command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+
+# TGA
+[HKEY_CLASSES_ROOT\.tga]
+@="tgafile"
+[HKEY_CLASSES_ROOT\tgafile]
+@="TGA Image"
+[HKEY_CLASSES_ROOT\tgafile\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\tgafile\DefaultIcon]
+@="<product path>\\PhotoEd.exe,2"
+# Note, we need an icon resource number and icon for TGA in Imager.exe
+[HKEY_CLASSES_ROOT\tgafile\shell\open\command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\tgafile\shell\print\command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\tgafile\shell\printto\command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+
+# PCX
+[HKEY_CLASSES_ROOT\.pcx]
+@="pcxfile"
+[HKEY_CLASSES_ROOT\pcxfile]
+@="PCX Image"
+[HKEY_CLASSES_ROOT\pcxfile\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\pcxfile\DefaultIcon]
+@="<product path>\\PhotoEd.exe,6"
+[HKEY_CLASSES_ROOT\pcxfile\shell\open\command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\pcxfile\shell\print\command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\pcxfile\shell\printto\command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+
+# GIF
+[HKEY_CLASSES_ROOT\.gif]
+@="giffile"
+[HKEY_CLASSES_ROOT\giffile]
+@="GIF Image"
+[HKEY_CLASSES_ROOT\giffile\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\giffile\DefaultIcon]
+@="<product path>\\PhotoEd.exe,5"
+[HKEY_CLASSES_ROOT\giffile\shell\open\command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\giffile\shell\print\command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\giffile\shell\printto\command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+
+# JPEG
+[HKEY_CLASSES_ROOT\.jpg]
+@="jpegfile"
+[HKEY_CLASSES_ROOT\.jpeg]
+@="jpegfile"
+[HKEY_CLASSES_ROOT\jpegfile]
+@="JPEG Image"
+[HKEY_CLASSES_ROOT\jpegfile\CLSID]
+@="{11943940-36DE-11CF-953E-00C0A84029E9}"
+[HKEY_CLASSES_ROOT\jpegfile\DefaultIcon]
+@="<product path>\\PhotoEd.exe,4"
+[HKEY_CLASSES_ROOT\jpegfile\shell\open\command]
+@="<product path>\\PhotoEd.exe \"%1\""
+[HKEY_CLASSES_ROOT\jpegfile\shell\print\command]
+@="<product path>\\PhotoEd.exe /p \"%1\""
+[HKEY_CLASSES_ROOT\jpegfile\shell\printto\command]
+@="<product path>\\PhotoEd.exe /pt \"%1\" \"%2\" \"%3\" \"%4\" "
+

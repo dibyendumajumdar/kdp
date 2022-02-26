@@ -1,0 +1,16 @@
+"C:\WINOPT_IVF\EDITOR\edfile.obj"
+"C:\WINOPT_IVF\EDITOR\edrc.res"
+"C:\WINOPT_IVF\EDITOR\obj"
+-out:"\winopt\editor\edfile.exe"
+-subsystem:windows
+-machine:ix86
+"c:\wint\lib.if8\winter.lib"
+"gdi32.lib"
+"user32.lib"
+"comdlg32.lib"
+"winspool.lib"
+"winmm.lib"
+"shell32.lib"
+"opengl32.lib"
+"glu32.lib"
+"advapi32.lib"

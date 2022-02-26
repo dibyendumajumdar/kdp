@@ -1,0 +1,978 @@
+NOQUITONERROR
+
+#QUITONERROR
+#******************************************
+#
+# Automake File Created By WiDE
+#
+#******************************************
+#
+# Source
+#
+FILES=\WINOPT_IVF\SRC\NSSMOD.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+MODULE=\WINOPT_IVF\
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GLOBALS.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+MODULE=\WINOPT_IVF\
+
+AND
+
+FILES=\WINOPT_IVF\SRC\CMDER.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\CONFIG1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\CONFIG2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\CONFIG3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\CONFIG4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM10.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM11.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM12.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM13.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM14.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM15.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM16.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM17.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM18.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM5.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM6.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM7.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM8.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LDM9.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MACRO1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MACRO2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MACRO3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MACRO4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NAMES.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NSSFILE1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NSSFILE2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NSSFILE3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NSSFILE4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NSSFILE5.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTENG1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM10.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM11.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM5.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM6.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM7.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM8.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIM9.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PARAX1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PARAX2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PARAX3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PARAX4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PIKUPS1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PIKUPS2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD5.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD6.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD7.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD8.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD9.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PLOTCAD10.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\KDP.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra1.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra10.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra11.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra12.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra13.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra2.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra3.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra4.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra5.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra6.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra7.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra8.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\raytra9.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\tilter.for
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SPECSUR1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SPECSUR2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SPECSUR3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SPECT1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\USER1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY5.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY6.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\UTILITY7.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT4.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT5.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT6.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT7.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\WAVSPOT8.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MODEL.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MYGLASS.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\FGLASSLOAD.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GCATLOAD.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LIBLOAD.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GCATLOAD2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\INSIDER.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\HARDWAR1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\HARDWAR2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\HARDWAR3.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\OPTIMIZE.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SPOTGUI.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PSFGUI.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\DOTFGUI.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GOTFGUI.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\APODGUI.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\VARIABLES.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\LOADGRIDA.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GLASSFRESH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\VARIFRESH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PIKFRESH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SPSRFFRESH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\CURVATURE_FRESH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\THICKNESS_FRESH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\IMAGE1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback   /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\FOE.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback   /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\BMP.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback   /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GUICODE2.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero  /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\GUICODE.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /include:\wint\lib.vf  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PROFIT1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\PROFIT_GLOBAL.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+MODULE=\WINOPT_IVF\
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SVD.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\DIFRAYS.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\AIMDIFRYS.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\MATH.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\FOBBS.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\DXF.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\NSSDXF.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\SAVEREST.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+
+AND
+
+FILES=\WINOPT_IVF\SRC\ASTRO1.FOR
+COMPILE=@ifort "%fi" /compile_only /watch:source /fpe:3 /Ox /unroll /Qsave /Qzero /nowarn /assume:noprotect_constants  /winapp /nofree /traceback  /object:"%od%sf%oe"
+OBJDIR=\WINOPT_IVF\src\
+OBJEXT=.OBJ
+

@@ -1,0 +1,78 @@
+///////////////////////////////////////////////////
+//
+// THIS FILE SHOULD NOT BE EDITED USING A TEXT
+// EDITOR OR 3RD PARTY RESOURCE EDITOR, EXCEPT
+// WHEN SPECIFICALLY INSTRUCTED BY I.S.S.
+//
+///////////////////////////////////////////////////
+//
+// Winteracter exported resources. 
+//
+// Exported : 18/Apr/2006 12:23:43
+//
+///////////////////////////////////////////////////
+//
+// To use this file it should be imported into
+// your main resource script
+//
+///////////////////////////////////////////////////
+ 
+///////////////////////////////////////////////////
+//
+// Parameter Definitions
+//
+#define IDF_LABEL1                       1001
+#define IDF_LABEL2                       1002
+#define IDF_LABEL4                       1003
+#define IDF_LABEL6                       1008
+#define IDF_LABEL3                       1193
+#define IDF_NW1                          1212
+#define IDF_NW2                          1213
+#define IDF_NW3                          1214
+#define IDF_NW4                          1215
+#define IDF_NW5                          1217
+#define IDD_CCR                           170
+#define IDF_CCRSET                       1763
+
+///////////////////////////////////////////////////
+//
+// Dialogs
+//
+IDD_CCR DIALOG 0, 0,  196,  148
+STYLE WS_POPUP | WS_BORDER | WS_DLGFRAME | WS_SYSMENU | DS_3DLOOK | DS_MODALFRAME
+FONT    8, "MS Sans Serif"
+CAPTION "Corner Cube Roof (CCR) Data"
+BEGIN
+    CONTROL "1-2 error (arc-sec)",IDF_LABEL1,"STATIC",WS_CHILD | WS_VISIBLE | WS_GROUP | SS_RIGHT,   20,   56,   80,    8
+    CONTROL "2-3 error (arc-sec)",IDF_LABEL2,"STATIC",WS_CHILD | WS_VISIBLE | SS_RIGHT,   36,   68,   64,    8
+    CONTROL "3-1 error (arc-sec)",IDF_LABEL3,"STATIC",WS_CHILD | WS_VISIBLE | SS_RIGHT,   44,   80,   56,    8
+    CONTROL "radius of curvature",IDF_LABEL4,"STATIC",WS_CHILD | WS_VISIBLE | SS_RIGHT,   40,   92,   60,    8
+    CONTROL "ASSIGN VALUES",IDOK,"BUTTON",WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP | BS_DEFPUSHBUTTON | BS_TEXT,   12,  108,   90,   14,WS_EX_DLGMODALFRAME
+    CONTROL "EXIT DIALOG",IDCANCEL,"BUTTON",WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_PUSHBUTTON | BS_TEXT,   18,  128,   80,   14,WS_EX_DLGMODALFRAME
+    CONTROL "0.00000000000000",IDF_NW2,"DOUBLEEDIT",WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_LEFT | ES_RIGHT | ES_MULTILINE,  110,   56,   80,   12
+    CONTROL "0.00000000000000",IDF_NW3,"DOUBLEEDIT",WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_LEFT | ES_RIGHT | ES_MULTILINE,  110,   68,   80,   12
+    CONTROL "0.00000000000000",IDF_NW4,"DOUBLEEDIT",WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_LEFT | ES_RIGHT | ES_MULTILINE,  110,   80,   80,   12
+    CONTROL "0.00000000000000",IDF_NW5,"DOUBLEEDIT",WS_CHILD | WS_VISIBLE | WS_BORDER | WS_GROUP | WS_TABSTOP | ES_LEFT | ES_RIGHT | ES_MULTILINE,  110,   92,   80,   12
+    CONTROL "Apex Length",IDF_LABEL6,"STATIC",WS_CHILD | WS_VISIBLE | WS_GROUP | SS_RIGHT,   34,   44,   66,    8
+    CONTROL "0.00000000000000",IDF_NW1,"DOUBLEEDIT",WS_CHILD | WS_VISIBLE | WS_BORDER | WS_TABSTOP | ES_LEFT | ES_RIGHT | ES_MULTILINE,  110,   44,   80,   12
+    CONTROL "Assign Surface as CCR",IDF_CCRSET,"BUTTON",WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP | BS_AUTORADIOBUTTON | BS_TEXT,   38,   16,  100,   14
+END
+
+IDD_CCR RCDATA
+BEGIN
+"[Checks] \n"
+" 1763 0 \n"
+"[Ranges] \n"
+" 1215     -360.00           360.00      \n"
+"[Fonts] \n"
+"    1    8 MS Sans Serif, 700 0 \n"
+"    2    8 MS Sans Serif, 700 0 \n"
+"[Formats] \n"
+" 1213 (G23.15E2) \n"
+" 1214 (G23.15E2) \n"
+" 1215 (G23.15E2) \n"
+" 1217 (G23.15E2) \n"
+" 1212 (G23.15E2) \n"
+,0
+END
+

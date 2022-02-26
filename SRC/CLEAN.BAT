@@ -1,0 +1,2 @@
+CD ..
+CALL CLEAN.BAT

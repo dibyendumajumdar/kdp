@@ -1,0 +1,5 @@
+CD\WINOPT
+DEL ODP.EXE
+DEL PRG.EXE
+CALL AM
+link @automake.lnk

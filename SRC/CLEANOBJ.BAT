@@ -1,0 +1,2 @@
+CD ..
+CALL CLEANOBJ.BAT

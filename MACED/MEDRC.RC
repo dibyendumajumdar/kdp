@@ -1,0 +1,111 @@
+///////////////////////////////////////////////////
+//
+// THIS FILE SHOULD NOT BE EDITED USING A TEXT
+// EDITOR OR 3RD PARTY RESOURCE EDITOR, EXCEPT
+// WHEN SPECIFICALLY INSTRUCTED BY I.S.S.
+//
+///////////////////////////////////////////////////
+//
+// Winteracter resource script. 
+//
+// Modified : 25/Sep/2006 19:03:09
+//
+///////////////////////////////////////////////////
+//
+// Include files
+//
+#include "winparam.h"
+#include "editor.rc"
+ 
+///////////////////////////////////////////////////
+//
+// Parameter Definitions
+//
+#define ID_ITEM1                        40001
+#define IDR_MENU1                       30001
+#define ID_HELP_ABOUT                   40002
+#define ID_HELP_MANUAL                  40005
+#define IDD_ABOUT                         101
+#define IDF_LABEL1                       1001
+#define ID_ITEM4                        40003
+#define IDF_INT1                         1885
+#define IDD_EDITFONT                      199
+
+///////////////////////////////////////////////////
+//
+// Dialogs
+//
+IDD_ABOUT DIALOG 0, 0,  147,   70
+STYLE WS_POPUP | WS_BORDER | WS_DLGFRAME | WS_SYSMENU | DS_3DLOOK | DS_MODALFRAME
+FONT    8, "MS Sans Serif"
+CAPTION "KDP Macro Editor"
+BEGIN
+    CONTROL "                                                KDP-2 Macro Editor.",IDF_LABEL1,"STATIC",WS_CHILD | WS_VISIBLE | SS_CENTER | SS_SUNKEN,   24,    4,   90,   32
+    CONTROL "Close",IDOK,"BUTTON",WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_DEFPUSHBUTTON | BS_TEXT,   50,   44,   40,   14
+END
+
+IDD_EDITFONT DIALOG 0, 0,  154,   81
+STYLE WS_POPUP | WS_BORDER | WS_DLGFRAME | WS_SYSMENU | DS_3DLOOK | DS_MODALFRAME
+FONT    8, "MS Sans Serif"
+CAPTION "Font Size"
+BEGIN
+    CONTROL "Font Size (Points)",IDF_LABEL1,"STATIC",WS_CHILD | WS_VISIBLE | WS_GROUP | SS_RIGHT,   14,   16,   58,    8
+    CONTROL "CHANGE FONT SIZE",IDOK,"BUTTON",WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP | BS_DEFPUSHBUTTON | BS_TEXT,   12,   36,   90,   14,WS_EX_DLGMODALFRAME
+    CONTROL "EXIT DIALOG",IDCANCEL,"BUTTON",WS_CHILD | WS_VISIBLE | WS_GROUP | WS_TABSTOP | BS_PUSHBUTTON | BS_TEXT,   14,   60,   80,   14,WS_EX_DLGMODALFRAME
+    CONTROL "8",IDF_INT1,"INTEGERSPIN",WS_CHILD | WS_VISIBLE | WS_BORDER | WS_GROUP | WS_TABSTOP | ES_LEFT | ES_RIGHT | ES_MULTILINE,   80,   16,   40,   14
+END
+
+IDD_EDITFONT RCDATA
+BEGIN
+"[Ranges] \n"
+" 1885               2              36 \n"
+"[Fonts] \n"
+"    1    8 MS Sans Serif, 700 0 \n"
+"    2    8 MS Sans Serif, 700 0 \n"
+"[Formats] \n"
+,0
+END
+
+///////////////////////////////////////////////////
+//
+// Menus
+//
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Open Reference Manual",                    ID_HELP_MANUAL
+        MENUITEM "Open Macro Prompting Guide",               ID_ITEM4
+        MENUITEM "About Macro Editor",                       ID_HELP_ABOUT
+    END
+END
+
+IDR_MENU1 RCDATA
+BEGIN
+ID_ITEM1,1,0
+0
+END
+
+///////////////////////////////////////////////////
+//
+// Icons
+//
+ICON1                           ICON   DISCARDABLE "\\winopt_ivf\\maced\\med.ico"
+
+///////////////////////////////////////////////////
+//
+// Winteracter Visual Tool Settings
+//
+//*WI* BASEMENU    30001
+//*WI* BASEITEM    40001
+//*WI* BASEDIALOG    101
+//*WI* BASEFIELD    1001
+//*WI* BASETOOLBAR 30101
+//*WI* BASEBUTTON  40201
+//*WI* BASEIMAGE    2001
+//*WI* F90MODULE   0
+//*WI* FORTSAVE    0
+//*WI* FILENAME    RESOURCE.INC
+//*WI* FMODNAME    RESOURCE
+//*WI* LASTTYPE        4
+//*WI* LASTRES         1

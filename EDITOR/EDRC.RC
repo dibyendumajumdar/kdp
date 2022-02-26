@@ -1,0 +1,85 @@
+///////////////////////////////////////////////////
+//
+// THIS FILE SHOULD NOT BE EDITED USING A TEXT
+// EDITOR OR 3RD PARTY RESOURCE EDITOR, EXCEPT
+// WHEN SPECIFICALLY INSTRUCTED BY I.S.S.
+//
+///////////////////////////////////////////////////
+//
+// Winteracter resource script. 
+//
+// Modified : 25/Sep/2006 19:00:14
+//
+///////////////////////////////////////////////////
+//
+// Include files
+//
+#include "winparam.h"
+#include "editor.rc"
+ 
+///////////////////////////////////////////////////
+//
+// Parameter Definitions
+//
+#define ID_ITEM1                        40001
+#define IDR_MENU1                       30001
+#define ID_HELP_ABOUT                   40002
+#define IDD_ABOUT                         101
+#define IDF_LABEL1                       1001
+#define ID_HELP_MANUAL                  40003
+
+///////////////////////////////////////////////////
+//
+// Dialogs
+//
+IDD_ABOUT DIALOG 0, 0,  147,   70
+STYLE WS_POPUP | WS_BORDER | WS_DLGFRAME | WS_SYSMENU | DS_3DLOOK | DS_MODALFRAME
+FONT    8, "MS Sans Serif"
+CAPTION "KDP ASCII File Editor"
+BEGIN
+    CONTROL "                                              KDP-2 ASCII File Editor.",IDF_LABEL1,"STATIC",WS_CHILD | WS_VISIBLE | SS_CENTER | SS_SUNKEN,   24,    4,   90,   32
+    CONTROL "Close",IDOK,"BUTTON",WS_CHILD | WS_VISIBLE | WS_TABSTOP | BS_DEFPUSHBUTTON | BS_TEXT,   50,   40,   40,   14
+END
+
+///////////////////////////////////////////////////
+//
+// Menus
+//
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "Open  Reference Maunal",                   ID_HELP_MANUAL
+        MENUITEM "About File Editor",                        ID_HELP_ABOUT
+    END
+END
+
+IDR_MENU1 RCDATA
+BEGIN
+ID_ITEM1,1,0
+0
+END
+
+///////////////////////////////////////////////////
+//
+// Icons
+//
+ICON1                           ICON   DISCARDABLE "\\winopt_ivf\\editor\\ed.ico"
+
+///////////////////////////////////////////////////
+//
+// Winteracter Visual Tool Settings
+//
+//*WI* BASEMENU    30001
+//*WI* BASEITEM    40001
+//*WI* BASEDIALOG    101
+//*WI* BASEFIELD    1001
+//*WI* BASETOOLBAR 30101
+//*WI* BASEBUTTON  40101
+//*WI* BASEIMAGE    2001
+//*WI* F90MODULE   0
+//*WI* FORTSAVE    0
+//*WI* FILENAME    RESOURCE.INC
+//*WI* FMODNAME    RESOURCE
+//*WI* LASTTYPE        4
+//*WI* LASTRES         1
